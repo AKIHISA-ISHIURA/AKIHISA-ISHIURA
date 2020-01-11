@@ -25,24 +25,23 @@ echo(round($d/$e,3));
 ?>  
 
 <?php
-$d = 22;  
-$e = 3;
-echo(ceil($d/$e));
+$f = 22;  
+$g = 3;
+echo(ceil($f/$g));
 ?>  
 
 <?php
-$d = 22;  
-$e = 3;
-echo(floor($d/$e));
+$h = 22;  
+$i = 3;
+echo(floor($h/$i));
 ?>  
 
-
+<?php
+$dice1 =mt_rand(1,6);
+$dice2 =mt_rand(1,6);
+echo(round($dice1 +　$dice2/36,3));
+?>
 
 </body>
-
-
-
-
-
 
 </html>
