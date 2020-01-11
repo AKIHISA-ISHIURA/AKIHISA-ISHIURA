@@ -39,7 +39,7 @@ echo(floor($h/$i));
 <?php
 $dice1 =mt_rand(1,6);
 $dice2 =mt_rand(1,6);
-echo(round($dice1 +　$dice2/36,3));
+echo(round(($dice1 +　$dice2)/36,3));
 ?>
 
 </body>
