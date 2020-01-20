@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
 
 ?>
@@ -11,10 +15,23 @@
 </head>
 <body>
 
-    <p><?php echo('リンゴが５個あります。'); ?></p>
-    <p><?php echo('string型を使用するときに、ダブルクォーテーション(")を表示する場合は、バックスラッシュ(\)が必要です。'); ?></p>
-    <p><?php echo('I\'m Security Engineer'); ?></p>
-    <p><?php echo('こんばんは、太郎くん'); ?></p>
+    <p><?php 
     
+    $a = 5;
+    
+    $doubleString = "string型を使用するときに、ダブルクォーテーション(\")を表示する場合は、バックスラッシュ(\)が必要です。";
+    
+    echo('リンゴが'.$a.'個あります。'); ?></p>
+    <p><?php echo("$doubleString"); ?></p>
+    <p><?php echo('I\'m Security Engineer'); ?></p>
+    <p><?php 
+    
+    $doubleString = "太郎くん";
+    
+    echo("こんばんは、$doubleString"); ?></p>
+    
+</body>
+</html>
+
 </body>
 </html>
