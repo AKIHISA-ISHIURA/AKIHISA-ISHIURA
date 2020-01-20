@@ -37,10 +37,10 @@ echo(floor($h/$i));
 ?>  
 
 <?php
-$dice1 =mt_rand(1,6);
-$dice2 =mt_rand(1,6);
-echo(round(($dice1 +　$dice2)/36,3));
-?>
+$j = 5;  　//合計8になる全ての組み合わせ
+$k = 6*6; //６面サイコロの全ての組み合わせ
+echo(round($j/$k*100,1)); // %表示にする為に１００倍
+?>  
 
 </body>
 
