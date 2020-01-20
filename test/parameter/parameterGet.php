@@ -4,19 +4,25 @@
 
 <p>
 <?php echo "Str1は、";?>
- <font color="red"><?php echo "リンゴ";?></font>
+ <span style="color: red;"><?php 
+ 
+ $param = "apple=リンゴ&gorilla=ゴリラ&rap=ラッパ";
+
+parse_str($param);
+ 
+ echo "$apple";?></span>
 <?php echo "です。";?>
 </p>
 
 <p>
 <?php echo "Str2は、";?>
-<font color="red"><?php echo "ゴリラ";?></font>
+<span style="color: red;"><?php echo "$gorilla";?></span>
 <?php echo "です。";?>
 </p>
 
 <p>
 <?php echo "Str3は、";?>
-<font color="red"><?php echo "ラッパ";?></font>
+<span style="color: red;"><?php echo "$rap";?></span>
 <?php echo "です。";?>
 </p>
 
