@@ -2,13 +2,17 @@
 <html>
 <body>
 
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
 $t = date("H");
 
 if ($t == "100") {
-    echo "string100は100です。";
+    echo "\$string100は100です。";
 } else {
-    echo "string100は100ではありません。";
+    echo "\$string100は100ではありません。";
 }
 ?>
  
@@ -16,9 +20,9 @@ if ($t == "100") {
 $t = date("H");
 
 if ($t === "100") {
-    echo "string100は100です。";
+    echo "\$string100は100です。";
 } else {
-    echo "string100は100ではありません。";
+    echo "\$string100は100ではありません。";
 }
 ?>
 
@@ -26,9 +30,9 @@ if ($t === "100") {
 $t = date("H");
 
 if ($t > "100") {
-    echo "string100は101以上です。";
+    echo "\$string100は101以上です。";
 } else {
-    echo "string100は101以上ではありません。";
+    echo "\$string100は101以上ではありません。";
 }
 ?>
 
@@ -36,9 +40,9 @@ if ($t > "100") {
 $t = date("H");
 
 if ($t >= "100") {
-    echo "string100は100以上です。";
+    echo "\$string100は100以上です。";
 } else {
-    echo "string100は100以上ではありません。";
+    echo "\$string100は100以上ではありません。";
 }
 ?>
 

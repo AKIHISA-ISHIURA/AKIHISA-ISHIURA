@@ -10,7 +10,10 @@
     <title>taskBranch</title>
 </head>
 <body>
-    <?php 
+<?php 
+
+$case = "1";
+
     switch ($case) {
         case true:
             echo 'bool'; 
@@ -31,10 +34,14 @@
     
     ?>
 
-<p><?php echo "otherと表示される。"; ?></p>
+
+<p><?php echo "boolと表示される。"; ?></p>
 
 
 <?php 
+
+$case = "1";
+
     switch ($case) {
         case $case === true:
             echo 'bool'; 
@@ -55,7 +62,7 @@
     
     ?>
 
-<p><?php echo "boolと表示される。"; ?></p>
+<p><?php echo "stringと表示される。"; ?></p>
 
 
 
